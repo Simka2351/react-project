@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+.page-header {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container1 {
+    display: flex;
+    .company-logo {
+      padding: 3px 35px;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 0px 64px;
+      font-weight: 700;
+      .bar {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    width: 161px;
+    height: 46px;
+    padding: 20px;
+    gap: 24px;
+    .button1 {
+      margin-top: 12px;
+      font-size: 15px;
+      line-height: 22px;
+      text-decoration: none;
+      color: #437ef7;
+      font-weight: 600;
+    }
+    .button2 {
+      button {
+        width: 80px;
+        height: 46px;
+        background: #437ef7;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #ffffff;
+        border-style: none;
+        cursor: pointer;
+      }
+    }
+  }
