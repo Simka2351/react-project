@@ -4,13 +4,15 @@ import './App.scss';
 import { HomePage } from './pages/HomePage/HomePage';
 import { Header } from './Header'
 import { Footer } from './Footer'
+import { LoginPage } from './pages/LoginPage/LoginPage'
+import { RegisterPage } from './pages/RegisterPage/RegisterPage'
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <HomePage />
+        <RegisterPage />
       </main>
       <Footer />
     </>

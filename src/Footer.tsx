@@ -1,11 +1,12 @@
 import './Footer.scss'
+import logo from './Lookscout.svg'
 
 export const Footer = () => {
     return (
         <>
         <div className="container12">
         <div className="footer-logo">
-          <img src="Landing-Page-Img/Lookscout.svg" alt="" />
+          <img src={logo} alt="" />
           <p>
             Generate outside the box <br />
             thinking with the possibility to <br />

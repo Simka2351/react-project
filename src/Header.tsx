@@ -23,6 +23,7 @@ export const Header = () => {
         </a>
       </div>
     </div>
+    <div className="line"></div>
         </>
     )
 }
