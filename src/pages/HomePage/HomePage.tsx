@@ -10,6 +10,7 @@ import customer from './img/customer.svg'
 import rating from './img/Rating.svg'
 import letterbox from './img/letterbox.svg'
 import mobile from './img/mobile-version.png'
+import check from './img/check.svg'
 
 export const HomePage = () => {
   return (
@@ -37,7 +38,7 @@ export const HomePage = () => {
       <div className="container3">
         <picture>
           <source
-            media="(max-width: 900px)"
+            media="(max-width: 901px)"
             src={mobile}
           />
           <img className="image1" src={base} alt="" />
@@ -144,15 +145,15 @@ export const HomePage = () => {
           </p>
           <div className="check">
             <div className="check1">
-              <img src="Landing-Page-Img/check.svg" alt="" />
+              <img src={check} alt="" />
               <p>Enterprise-grade security</p>
             </div>
             <div className="check1">
-              <img src="Landing-Page-Img/check.svg" alt="" />
+              <img src={check} alt="" />
               <p>99.9% guaranteed uptime SLA</p>
             </div>
             <div className="check1">
-              <img src="Landing-Page-Img/check.svg" alt="" />
+              <img src={check} alt="" />
               <p>Designated customer success team</p>
             </div>
           </div>
