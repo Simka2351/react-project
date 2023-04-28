@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <main>
-        <RegisterPage />
+        <HomePage />
       </main>
       <Footer />
     </>

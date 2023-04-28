@@ -1,4 +1,15 @@
 import './HomePage.scss'
+import base from './img/Base.png'
+import left from './img/left.jpg'
+import right from './img/Right.png'
+import right1 from './img/Photo.jpg'
+import switch1 from './img/Switch.jpg'
+import switch2 from './img/Switch2.jpg'
+import switch3 from './img/Switch3.jpg'
+import customer from './img/customer.svg'
+import rating from './img/Rating.svg'
+import letterbox from './img/letterbox.svg'
+import mobile from './img/mobile-version.png'
 
 export const HomePage = () => {
   return (
@@ -27,9 +38,9 @@ export const HomePage = () => {
         <picture>
           <source
             media="(max-width: 900px)"
-            src="Landing-Page-Img/mobile-version.png"
+            src={mobile}
           />
-          <img className="image1" src="Landing-Page-Img/Base.png" alt="" />
+          <img className="image1" src={base} alt="" />
         </picture>
       </div>
       <div className="container4">
@@ -86,7 +97,7 @@ export const HomePage = () => {
         </div>
         <div className="right">
           <img
-            src="Landing-Page-Img/Right.png"
+            src={right}
             alt=""
             className="transaction"
           />
@@ -95,7 +106,7 @@ export const HomePage = () => {
       <div className="container7">
         <div className="container7-1">
           <div className="left">
-            <img src="Landing-Page-Img/left.jpg" alt="" />
+            <img src={left} alt="" />
           </div>
           <div className="text7">
             <h3>1% OF THE INDUSTRY</h3>
@@ -150,7 +161,7 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="right1">
-          <img src="Landing-Page-Img/Photo.jpg" alt="" />
+          <img src={right1} alt="" />
         </div>
       </div>
       <div className="container9">
@@ -165,7 +176,7 @@ export const HomePage = () => {
       </div>
       <div className="container10">
         <div className="box1">
-          <img className="switch" src="Landing-Page-Img/Switch.jpg" alt="" />
+          <img className="switch" src={switch1} alt="" />
           <div className="text-box1">
             <h3>Article 25 Apr. 2022</h3>
             <h2>
@@ -183,7 +194,7 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="box1">
-          <img className="switch" src="Landing-Page-Img/Switch2.jpg" alt="" />
+          <img className="switch" src={switch2} alt="" />
           <div className="text-box1">
             <h3>Article 25 Apr. 2022</h3>
             <h2>
@@ -201,7 +212,7 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="box1">
-          <img className="switch" src="Landing-Page-Img/Switch3.jpg" alt="" />
+          <img className="switch" src={switch3} alt="" />
           <div className="text-box1">
             <h3>Article 25 Apr. 2022</h3>
             <h2>
@@ -233,7 +244,7 @@ export const HomePage = () => {
         <div className="box3">
           <img
             className="customer-1"
-            src="Landing-Page-Img/customer.svg"
+            src={customer}
             alt=""
           />
           <p>
@@ -245,7 +256,7 @@ export const HomePage = () => {
         <div className="box3">
           <img
             className="customer-1"
-            src="Landing-Page-Img/Rating.svg"
+            src={rating}
             alt=""
           />
           <p>
@@ -257,7 +268,7 @@ export const HomePage = () => {
         <div className="box3">
           <img
             className="customer-1"
-            src="Landing-Page-Img/letterbox.svg"
+            src={letterbox}
             alt=""
           />
           <p>

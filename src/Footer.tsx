@@ -1,5 +1,7 @@
 import './Footer.scss'
 import logo from './Lookscout.svg'
+import social from './Social.svg'
+import footer from './footer.svg'
 
 export const Footer = () => {
     return (
@@ -12,7 +14,7 @@ export const Footer = () => {
             thinking with the possibility to <br />
             targtet the low.
           </p>
-          <img src="Landing-Page-Img/Social.svg" alt="" />
+          <img src={social} alt="" />
         </div>
         <div className="footer-link1">
           <div className="footer-links">
@@ -50,7 +52,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="end">
-        <img src="Landing-Page-Img/footer.svg" alt="" />
+        <img src={footer} alt="" />
         <p>© 2023 Lookscout. All Rights Reserved.</p>
       </div>
         </>
